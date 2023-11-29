@@ -1,14 +1,29 @@
-Computational characterization of drug safety information from product labels
+# Medicine Safety Analysis with Image Processing
 
-•Developed a Python program for computational drug safety characterization by analyzing product labels,
-utilizing OpenCV and Pytesseract for image processing and text extraction.
+This Python program analyzes drug safety using OpenCV, Pytesseract, and dataset validation. It extracts medicine names from images, cross-checking against an Indian standards dataset. Additionally, it evaluates safety levels and interactions for medications.
 
-•Validated medicine names against the Indian standards dataset to ensure accuracy and consistency in drug safety
-assessment.
+### Features:
+- **Image Processing:** Uses OpenCV and Pytesseract to extract medicine names from images.
+- **Dataset Validation:** Cross-checks medicine names against an Indian standards dataset for accuracy.
+- **Safety Assessment:** Determines safety levels and potential interactions for medications based on a provided dataset.
+- **Output Generation:** Saves the extracted medicine name and safety analysis to an output file.
 
-•Determined safety levels for different medications based on the extracted data, enabling informed decisionmaking and risk evaluation.
-•Contributed to enhancing overall drug safety by providing computational insights and analysis derived from
-comprehensive product label information.
+### How to Use:
+1. Ensure you have Python installed.
+2. Install necessary libraries using `pip install -r requirements.txt`.
+3. Update the `IMAGE_FILE_LOCATION` variable with the path to your image.
+4. Run the script.
 
-•Demonstrated proficiency in Python programming, image processing, and data validation techniques,
-showcasing strong technical skills in the field of drug safety analysis.
+### Requirements:
+- Python 3.x
+- OpenCV
+- Pytesseract
+- Pandas
+
+### Usage Example:
+- Provide an image with medicine details.
+- The program will extract the medicine name and assess its safety level against a provided dataset.
+
+### Output:
+- The script generates an output file containing the extracted medicine name and safety analysis.
+
